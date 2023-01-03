@@ -1,0 +1,51 @@
+body, #wazne, var, #error{
+    display: flex;
+    justify-content: center;
+}
+button, img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    flex-direction: column;
+    background-color: #ffffff;
+    font-family: 'Anybody', "cursive";
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+h1{
+    color: #161616;
+    align-self: center;
+}
+#wazne{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 50px;
+}
+input{
+    margin-top: 5px;
+    width: 190px;
+}
+img{
+    margin-top: -50px;
+}
+a{
+    color:#161616;
+}
+var{
+    font-size: 1.5em;
+}
+button{
+    margin-top: -40px;
+    width: 60px;
+    height: 25px;
+}
+#error{
+    color: red;
+    font-size: 16px;
+    padding-top: 50px;
+}
